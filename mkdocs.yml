@@ -1,0 +1,24 @@
+site_name: EXTP协议第一版草案
+repo_name: extpdev/extp
+repo_url: https://github.com/extpdev/extp
+edit_uri: blob/main/specs/
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: indigo
+  language: zh
+  logo: assets/logo-white.png
+  favicon: assets/logo.png
+  features:
+    - navigation.instant
+    #- navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.superfences
+nav:
+  - 主页: index.md
+  - 术语表: glossary.md
