@@ -1,6 +1,7 @@
 site_name: EXTP1 标准草案
 repo_name: extpdev/extp
 repo_url: https://github.com/extpdev/extp
+site_url: https://extpdev.github.io/extp/
 edit_uri: blob/main/docs/
 copyright: Copyright &copy; 2022 EXTP Workgroup. All rights reserved.
 theme:
@@ -33,9 +34,32 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed
   - pymdownx.superfences
+  - meta
 nav:
   - 主页: index.md
   - 术语表: glossary.md
   - 状态码:
     - 概述: status_code/index.md
     - 基础码表: status_code/basic.md
+extra:
+  generator: false
+  social:
+    - icon: material/github
+      link: https://github.com/extpdev
+  analytics:
+    provider: google
+    property: G-Z6TQJVJ5SP
+    #我们无法使用feedback，因为我们没money
+    #feedback:
+    #  title: 此页对您有帮助吗？
+    #  ratings:
+    #    - icon: material/emoticon-happy-outline
+    #      name: 是的
+    #      data: 1
+    #      note: >-
+    #        感谢您的反馈！
+    #    - icon: material/emoticon-sad-outline
+    #      name: 此页面不给力
+    #      data: 0
+    #      note: >- 
+    #        感谢您的反馈！在我们的<a href="https://github.com/extpdev/extp/issues" target="_blank">Issues页面</a>上提交您对此页面更详细的反馈。
