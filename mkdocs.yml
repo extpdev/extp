@@ -1,7 +1,7 @@
 site_name: EXTP1 标准草案
 repo_name: extpdev/extp
 repo_url: https://github.com/extpdev/extp
-edit_uri: blob/main/specs/
+edit_uri: blob/main/docs/
 theme:
   name: material
   palette:

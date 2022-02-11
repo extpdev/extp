@@ -23,6 +23,10 @@
 
 与上游数据对接、提供符合 EXTP 协议标准的接口的程序。
 
+## EXTP 开发工具（EXTP Develop Tools）
+
+快速开发 EXTP 协议实现的开发工具集。
+
 ## EXTP 扩展
 
 遵从 EXTP 协议标准并扩充的部分内容。
@@ -30,3 +34,7 @@
 ## EXTP SDK
 
 帮助 EXTP 用户对接 EXTP 实现，使用户不需要自行编写 HTTP、WS、TCP 等通讯逻辑的库。
+
+## API
+
+指 EXTP 协议实现。
