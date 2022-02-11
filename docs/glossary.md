@@ -23,6 +23,12 @@
 
 与上游数据对接、提供符合 EXTP 协议标准的接口的程序。
 
+## EXTP 应用（EXTP Application）
+
+与 EXTP 协议实现对接，实现前端展示的程序。可简称为 **前端**。
+
+EXTP 应用通常可以基于现成的 EXTP SDK 来编写，而无需关心 EXTP 协议标准的通信细节。
+
 ## EXTP 开发工具（EXTP Develop Tools）
 
 快速开发 EXTP 协议实现的开发工具集。
@@ -38,3 +44,7 @@
 ## API
 
 指 EXTP 协议实现。
+
+## 状态码（Status Code）
+
+于 [状态码表](status_code/index.md) 定义的状态码。

@@ -2,11 +2,24 @@ site_name: EXTP1 标准草案
 repo_name: extpdev/extp
 repo_url: https://github.com/extpdev/extp
 edit_uri: blob/main/docs/
+copyright: Copyright &copy; 2022 EXTP Workgroup. All rights reserved.
 theme:
   name: material
   palette:
-    primary: black
-    accent: indigo
+    #primary: black
+    #accent: indigo
+    - scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: 暗色模式
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 明色模式
   language: zh
   logo: assets/logo-white.png
   favicon: assets/logo.png
@@ -15,6 +28,7 @@ theme:
     #- navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.top
 markdown_extensions:
   - admonition
   - pymdownx.tabbed
@@ -22,3 +36,6 @@ markdown_extensions:
 nav:
   - 主页: index.md
   - 术语表: glossary.md
+  - 状态码:
+    - 概述: status_code/index.md
+    - 基础码表: status_code/basic.md
