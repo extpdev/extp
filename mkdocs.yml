@@ -25,22 +25,34 @@ theme:
   logo: assets/logo-white.png
   favicon: assets/logo.png
   features:
-    - navigation.instant
+    #- navigation.instant
     #- navigation.tracking
     - navigation.tabs
     - navigation.sections
     - navigation.top
 markdown_extensions:
   - admonition
-  - pymdownx.tabbed
+  #- pymdownx.tabbed
   - pymdownx.superfences
   - meta
 nav:
   - 主页: index.md
   - 术语表: glossary.md
+  - EXTP:
+    - 概述: extp/index.md
+    - 返回格式: extp/back.md
+    - 发送格式: extp/send.md
   - 状态码:
     - 概述: status_code/index.md
-    - 基础码表: status_code/basic.md
+    - 基础分类: status_code/basic.md
+    - 基础码表: status_code/basic_table.md
+  - 通信方法:
+    - TCP: connection/tcp.md
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
 extra:
   generator: false
   social:
